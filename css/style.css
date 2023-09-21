@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,66 +6,61 @@
     font-family: 'Varela Round', sans-serif;
 }
 
-body{
+body {
     margin: 50px 80px 0 80px;
 }
-h1{
+
+h1 {
     color: #E53170;
     text-align: center;
     margin-bottom: 50px;
 }
 
-header p{
+header p {
     text-align: center;
 }
 
 
-
-.clearfix::after{
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
 
 }
 
-.colimage{
+.colimage {
     float: left;
     width: 100px;
     height: 100px;
 
 }
 
-.card{
+.card {
     float: left;
     background-color: rgb(0, 0, 30);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     color: white;
-    width: 31%;
+    width: 30%;
     height: 20%;
     margin: 50px 20px 10px 20px;
     line-height: 30px;
 }
 
-h2{
+
+.card h2 {
     font-size: 20px;
     margin-top: 4px;
     margin-left: 110px;
 
 }
 
-.card p{
+.card p {
     margin-left: 110px;
 }
 
 
-.card :nth-child(4){
+.card :nth-child(4) {
     color: skyblue;
 
 
 }
-
-
-
-
-
-
-

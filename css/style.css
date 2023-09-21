@@ -10,7 +10,7 @@ body{
     margin: 50px 80px 0 80px;
 }
 h1{
-    color: red;
+    color: #E53170;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -39,7 +39,7 @@ header p{
     float: left;
     background-color: rgb(0, 0, 30);
     color: white;
-    width: 30%;
+    width: 31%;
     height: 20%;
     margin: 50px 20px 10px 20px;
     line-height: 30px;
